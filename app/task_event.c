@@ -20,7 +20,7 @@ void task_keypad(void *pvParameters){
     }
 }
 void task_infrared(void *pvParameters){
-
+    int result = 0;
     while(1){
         // 读取按键状态
         // 判断是否按下按键
